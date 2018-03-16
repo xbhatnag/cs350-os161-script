@@ -10,7 +10,7 @@ Script that makes working with CS350 and OS/161 easier.
 ## Smarts
 1. Hides gross output from building kernel, leaving only errors that are causing a compile fail.
 2. All loops are automatically logged!
-3. Find yourself repeating the same commands when running the kernel. Set a do command and then just run `350 do`.
+3. Find yourself repeating the same commands when running the kernel? Set a do command and then just run `350 do`.
 4. Split your terminal into multiple panes with tmux and loop different tests on each one.
 5. Debug kernel without needing different terminal windows or connecting to a specific server.
 6. If you have a 1/200 bug that causes a panic, you can use loop + debug. When the panic happens, the loop pauses and you can use gdb.
