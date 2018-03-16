@@ -5,7 +5,7 @@ Script that makes working with CS350 and OS/161 easier.
 1. This script is designed to work on UWaterloo linux servers. You may be able to change the directories at the top of the script to get things working locally, but it won't do those corrections by itself.
 2. To get access to this script from anywhere in your terminal, try putting the script in `~/bin/`. You might need to change your PATH variables to get this to work ([see this](https://askubuntu.com/a/465113))
 3. This script uses tmux for things like debugging / looping + debugging. Get familiar with tmux [here](https://hackernoon.com/a-gentle-introduction-to-tmux-8d784c404340)
-4. For loop and do, all commands must be on a single line.
+4. When setting loop and do commands, put all commands on a single line (e.g - `p uw-testbin/hogparty;q`)
 
 ## Smarts
 1. Hides gross output from building kernel, leaving only errors that are causing a compile fail.
